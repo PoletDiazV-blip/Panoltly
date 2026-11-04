@@ -5,6 +5,11 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# Configuración de Entorno Local (¡Crítico para proteger credenciales!)
+.env
+.env.local
+.env.*.local
+
 ### STS ###
 .apt_generated
 .classpath
